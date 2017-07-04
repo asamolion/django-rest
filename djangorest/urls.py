@@ -22,6 +22,7 @@ from rest_framework import routers
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^', include('snippets.urls')),
 ]
 
 
